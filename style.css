@@ -1,0 +1,432 @@
+* {
+  font-family: "Montserrat";
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 72px;
+}
+
+h2 {
+  text-align: center;
+  color: #ababab;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-family: arial;
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 16px;
+  margin: 0;
+  margin-left: 100px;
+  margin-top: -90px;
+  float: left;
+}
+
+h5 {
+  font-size: 12px;
+  font-weight: 400;
+  float: left;
+  margin: 0;
+  color: #777777;
+  margin-left: 100px;
+  margin-top: -70px;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+ul li {
+  margin-top: 10px;
+  width: 160px;
+  font-size: 24px;
+}
+
+button {
+  background-color: #18ba51;
+  color: #ffffff;
+  padding: 10px 16px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font: bold;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+button:hover {
+  background-color: rgba(24, 186, 81, 0.5);
+}
+
+li:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.marg {
+  margin: 0;
+}
+
+.etseg {
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+.tegsh {
+  justify-content: center;
+}
+
+.tom {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+  gap: 300px;
+}
+
+.jijig {
+  width: 400px;
+  height: 800px;
+  float: left;
+}
+
+.ngu-buurunhii {
+  margin-top: 80px;
+}
+
+.buurunhii {
+  border-radius: 50%;
+  padding: 10px;
+  width: 45px;
+  height: 45px;
+  background: #1d1f24;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.price {
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+
+.jijig-price {
+  margin: 0;
+  color: #ababab;
+  font-size: 24px;
+  margin-left: 30px;
+}
+
+.jijig-price2 {
+  margin: 0;
+  color: #303030;
+  font-size: 48px;
+  margin-top: 10px;
+}
+
+.ug {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 20.72px;
+  color: #16a94a;
+  text-transform: uppercase;
+}
+
+.ug2 {
+  font-size: 30px;
+  color: #ffffff;
+  width: 70px;
+  height: 55px;
+  text-align: center;
+  align-content: center;
+}
+
+.zuraas {
+  text-align: center;
+  border: 1px;
+  border-style: dashed;
+  height: 40px;
+  width: 0px;
+  margin-left: 31px;
+}
+
+.full {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.menu {
+  background-color: #ffffff;
+  width: 218px;
+  height: 348px;
+  border-radius: 24px;
+  padding: 80px;
+  display: inline;
+  border: 2px solid #ffffff;
+}
+
+.menu:hover {
+  border: 2px solid #18ba51;
+}
+
+.order {
+  margin-top: 250px;
+  background-color: #171717;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.order2 {
+  width: 300px;
+  height: 93px;
+  text-align: center;
+}
+
+.dad-logo {
+  background-color: black;
+  text-align: center;
+}
+
+.logo {
+  background-color: #101010;
+  border-top: 1px solid #303030;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dad-icon {
+  display: flex;
+  gap: 10px;
+  background-color: #101010;
+  justify-content: center;
+}
+
+.icon {
+  border-radius: 5px;
+  width: 200px;
+  height: 64px;
+  background-color: #303030;
+  font-size: 18px;
+  align-content: center;
+  font-weight: bold;
+}
+.bicig {
+  width: 2000px;
+  height: 68px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.image {
+  width: 350px;
+  height: 550px;
+  border-radius: 12px;
+  margin-right: 10px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5);
+}
+
+.big {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.parent {
+  width: 350px;
+  margin: 20px;
+  height: 550px;
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.child {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  transition: all 1.1s;
+}
+
+.img1 {
+  background-image: url(Sukhbaatar-Square.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+}
+
+.img2 {
+  background-image: url(khuvsgul.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+}
+
+.img3 {
+  background-image: url(amarbaysgalant.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+}
+
+.img4 {
+  background-image: url(terkh.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+}
+
+.parent:hover .child {
+  transform: scale(1.2);
+}
+
+.img {
+  width: 750px;
+  height: 950px;
+}
+
+.tour {
+  text-transform: uppercase;
+  font-size: 24px;
+  color: #ababab;
+  margin: 0;
+}
+
+.desti {
+  font-size: 48px;
+  color: #303030;
+  margin: 0;
+  margin-top: 10px;
+}
+
+.start {
+  margin: 0;
+  font-size: 36px;
+  width: 300px;
+}
+
+ul {
+  margin-top: 40px;
+  height: 240px;
+  color: #777777;
+}
+
+.mungu {
+  text-align: right;
+  font-size: 32px;
+  font-weight: bold;
+}
+.ready {
+  font-size: 40px;
+  font-family: Arial;
+  margin: 0;
+  color: #ffffff;
+}
+
+.khuvsgul {
+  position: absolute;
+  display: none;
+  height: 950px;
+  width: 750px;
+  left: 700px;
+  top: -343px;
+  border-radius: 25px;
+}
+
+.buurunhii:hover .khuvsgul {
+  display: block;
+}
+
+.suhee {
+  position: absolute;
+  display: none;
+  height: 950px;
+  width: 750px;
+  left: 700px;
+  top: -236px;
+  border-radius: 25px;
+}
+
+.buurunhii:hover .suhee {
+  display: block;
+}
+
+.horgo {
+  position: absolute;
+  display: none;
+  height: 950px;
+  width: 750px;
+  left: 700px;
+  top: -450px;
+  border-radius: 25px;
+}
+
+.buurunhii:hover .horgo {
+  display: block;
+}
+
+.terh {
+  position: absolute;
+  display: none;
+  height: 950px;
+  width: 750px;
+  left: 700px;
+  top: -557px;
+  border-radius: 25px;
+}
+
+.buurunhii:hover .terh {
+  display: block;
+}
+
+.amaraa {
+  position: absolute;
+  display: none;
+  height: 950px;
+  width: 750px;
+  left: 700px;
+  top: -664px;
+  border-radius: 25px;
+}
+
+.buurunhii:hover .amaraa {
+  display: block;
+}
+
+.suhee2 {
+  position: absolute;
+  display: none;
+  height: 950px;
+  width: 750px;
+  left: 700px;
+  top: -771px;
+  border-radius: 25px;
+}
+
+.buurunhii:hover .suhee2 {
+  display: block;
+}
